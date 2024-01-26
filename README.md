@@ -5,6 +5,8 @@
 
 ## GPT-VISION
 ## Examples: 
-![preview](https://github.com/Skkuhodomo/Classifier/blob/main/images/2.png)
-<img src="images/4.png" width="400" height="800"/>
-![preview](https://github.com/Skkuhodomo/Classifier/blob/main/images/3.png)
+<div>
+<img src="images/2.png" width="30%" height="30%"/>
+<img src="images/3.png" width="30%" height="30%"/>
+<img src="images/4.png" width="30%" height="30%"/>
+</div>
