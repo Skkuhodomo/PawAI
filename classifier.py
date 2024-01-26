@@ -25,7 +25,7 @@ def pred_img(img_bytes):
     if decoded_pred is not None and len(decoded_pred[0]) > 0:
         for i, instance in enumerate(decoded_pred[0]):
             st.write('{}: {} ({:.2f}%)'.format(i + 1, instance[1], instance[2] * 100))
-        st.write('I think your pet is a {}'.format(decoded_pred[0][0][1]), style={"font-size": "30px"})
+        st.header('I think your pet is a {}'.format(decoded_pred[0][0][1]))
     else:
         print("Unable to decode predictions.")
 
