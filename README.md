@@ -1,3 +1,10 @@
-# Classifier
+# PawAI 🐕 🐾
 
-![preview](https://github.com/Skkuhodomo/Classifier/blob/main/images/1.png)
+## Cat vs Dog classifier
+
+
+## GPT-VISION
+## Examples: 
+![preview](https://github.com/Skkuhodomo/Classifier/blob/main/images/2.png)
+<img src="images/4.png" width="400" height="800"/>
+![preview](https://github.com/Skkuhodomo/Classifier/blob/main/images/3.png)
