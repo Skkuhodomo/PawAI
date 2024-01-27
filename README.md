@@ -1,7 +1,9 @@
 # PawAI 🐕 🐾
 
-PawAI (ResNet50): Designed to identify your pet's breed, this model is recommended for cases where you are unsure about your pet's breed.
-GPT-Vision (Prompt-Tuning): The GPT-Vision module has been fine-tuned with prompt-tuning capabilities. By uploading your pet's image, GPT will analyze both your pet's overall condition and accurately determine its breed.
+**PawAI (ResNet50)**: Designed to identify your pet's breed, this model is recommended for cases where you are unsure about your pet's breed.
+
+
+**GPT-Vision (Prompt-Tuning)**: The GPT-Vision module has been fine-tuned with prompt-tuning capabilities. By uploading your pet's image, GPT will analyze both your pet's overall condition and accurately determine its breed.
 ## Cat vs Dog classifier
 
 ### ResNet50
