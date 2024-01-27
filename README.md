@@ -39,6 +39,21 @@ I modified a GPT prompt so that it can be a **veterinarian** who can identify th
 
 ## To Get Started 
 
+Download Source code 
+```
+  git clone https://github.com/Skkuhodomo/PawAI.git
+```
+</pre>
+
+Install library
+```
+  pip install -r requirements.txt
+```
+Run
+```
+  streamlit run main.py
+```
+
 ## Examples: 
 <div>
 <img src="images/2.png" width="30%" height="30%"/>
