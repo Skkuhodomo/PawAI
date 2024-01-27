@@ -10,7 +10,7 @@
 : Residual Neural Network. I used pretrained model, ResNet50 for indenfifying pet's breed. 
 
 <details>
-<summary>More info</summary>
+<summary>Click for More Info</summary>
   
 ### PlainNet(Left) &rightarrow; ResNet(Right)
 <div align = "center">
