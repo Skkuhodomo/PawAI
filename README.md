@@ -7,19 +7,28 @@
 ## Cat vs Dog classifier
 
 ### ResNet50
-: Residual Neural Network
-
+: Residual Neural Network.
+<details>
+<summary>More info</summary>
+  
 ### PlainNet(Left) &rightarrow; ResNet(Right)
 <div align = "center">
 <img src="http://incredible.ai/assets/images/resnet_plain.png", width="35%", height="35%"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ResBlock.png", width="50%", height="50%"/>
 </div>
-The primary goal of painNet was to minimize H(x)
 
-References:
+**"Is learning better networks as easy as stacking more layers?"**
+
+
+ResNet was prompted by a pivotal question: does incorporating more layers consistently lead to superior models? PainNet's primary aim was to minimize H(x). However, this proves to be challenging when the value of x is not fixed and can be altered in models. Researchers posit that addressing this challenge becomes feasible when x is intricately linked to the output, expressed as F(x) + x. Consequently, in this context, H(x) is represented as F(x) + x. To minimize H(x), the emphasis shifts to ensuring that F(x) = -x. This underlying concept forms the essence of ResNet. Despite the dynamic nature of x in both models, ResNet redefines the role of F(x) to align with x. This shift in focus significantly enhances accuracy. 
+
+[References](https://arxiv.org/pdf/1409.1556.pdf)
+<br/>
+</details>
 
 [Data resource](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
-[Paper](https://arxiv.org/pdf/1409.1556.pdf)
+
+
 ## GPT-VISION
 ## Examples: 
 <div>
