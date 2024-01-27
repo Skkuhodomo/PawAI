@@ -7,7 +7,8 @@
 ## Cat vs Dog classifier
 
 ### ResNet50
-: Residual Neural Network.
+: Residual Neural Network. I used pretrained model, ResNet50 for indenfifying pet's breed. 
+
 <details>
 <summary>More info</summary>
   
@@ -26,10 +27,18 @@ ResNet was prompted by a pivotal question: does incorporating more layers consis
 <br/>
 </details>
 
-[Data resource](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
+Data is from Tensorflow dataset.[Data resource](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
 
 
 ## GPT-VISION
+With **Langchain🦜⛓️** you can load openAI model. 
+
+I modified a GPT prompt so that it can be a **veterinarian** who can identify the breed and condition of pets through images.
+
+[OpenAI](https://platform.openai.com/docs/guides/vision)
+
+## To Get Started 
+
 ## Examples: 
 <div>
 <img src="images/2.png" width="30%" height="30%"/>
