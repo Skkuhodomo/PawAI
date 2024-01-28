@@ -85,17 +85,7 @@ if uploaded_file is not None and analyze_button:
         ]
     
         # Make the request to the OpenAI API
-        try:
-            # Without Stream
-            
-            # response = client.chat.completions.create(
-            #     model="gpt-4-vision-preview", 
-            #     messages=messages, 
-            #     max_tokens=500, 
-            #     stream=False
-            # )
-    
-            # Stream the response
+        try: 
             full_response = ""
             message_placeholder = st.empty()
             for completion in client.chat.completions.create(
