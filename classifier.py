@@ -1,5 +1,4 @@
 import cv2
-import matplotlib.pyplot as plt
 import tensorflow_datasets as tfds
 import tensorflow as tf
 from keras.applications.resnet import ResNet50, decode_predictions, preprocess_input
