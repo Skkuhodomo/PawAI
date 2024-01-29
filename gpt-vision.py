@@ -1,18 +1,6 @@
 import streamlit as st
-import openai
-from langchain.chat_models import ChatOpenAI
-from langchain.callbacks.base import BaseCallbackHandler
-from langchain.schema import HumanMessage
-import streamlit as st
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.chat_models import ChatOpenAI
-from langchain.chains import ConversationalRetrievalChain
-from langchain.document_loaders.csv_loader import CSVLoader
-from langchain.vectorstores import FAISS
-import tempfile
 from openai import OpenAI
-import os, base64, requests
-import ui_classifier as cl
+import  base64
 st.subheader("**GPT will analysis your pet image**")
 openai_api_key = st.text_input(
         label="$\\hspace{0.25em}\\texttt{Your OpenAI API Key}$",
