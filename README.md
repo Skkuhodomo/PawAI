@@ -26,6 +26,7 @@ ResNet was prompted by a pivotal question: does incorporating more layers consis
 [References](https://arxiv.org/pdf/1409.1556.pdf)
 
 ### Process of learning(ResNet50)
+![preview](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*-JY0Nx8HXlNyJNijEyCWUg.jpeg)
 
 <br/>
 </details>
