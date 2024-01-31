@@ -24,6 +24,9 @@
 ResNet was prompted by a pivotal question: does incorporating more layers consistently lead to superior models? PainNet's primary aim was to minimize H(x). However, this proves to be challenging when the value of x is not fixed and can be altered in models. Researchers posit that addressing this challenge becomes feasible when x is intricately linked to the output, expressed as F(x) + x. Consequently, in this context, H(x) is represented as F(x) + x. To minimize H(x), the emphasis shifts to ensuring that F(x) = -x. This underlying concept forms the essence of ResNet. Despite the dynamic nature of x in both models, ResNet redefines the role of F(x) to align with x. This shift in focus significantly enhances accuracy. 
 
 [References](https://arxiv.org/pdf/1409.1556.pdf)
+
+### Process of learning(ResNet50)
+
 <br/>
 </details>
 
