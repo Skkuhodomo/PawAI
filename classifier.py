@@ -1,11 +1,11 @@
 import cv2
 import tensorflow_datasets as tfds
 import tensorflow as tf
-#from keras.applications.resnet import ResNet50, decode_predictions, preprocess_input
 from keras.applications import resnet
 from PIL import Image
 import numpy as np
 import streamlit as st
+
 data_train, ds_info = tfds.load('cats_vs_dogs', split=[tfds.Split.TRAIN], with_info=True)
 images = [one['image'].numpy() for one in data_train[0].take(30)]
 resnet50_pre = resnet.ResNet50(weights='imagenet', input_shape=(224, 224, 3))
@@ -29,3 +29,16 @@ def pred_img(img_bytes):
     else:
         print("Unable to decode predictions.")
 
+
+def main():
+   
+    st.title("Who are you?")
+
+    img_file = st.file_uploader('Upload', type=['png', 'jpg', 'jpeg'])
+
+    if img_file:
+        st.image(img_file, caption='Uploaded Image.', use_column_width=True)
+        pred_img(img_file)
+
+if __name__ == '__main__':
+    main()

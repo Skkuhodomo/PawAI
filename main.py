@@ -3,7 +3,7 @@ import streamlit as st
 show_pages(
     [
         Page("main.py", "Home", "🏠"),
-        Page("ui_classifier.py", "PawAI", ":paw_prints:"),
+        Page("classifier.py", "PawAI", ":paw_prints:"),
         Page("gpt-vision.py", "GPT-vision", ":robot_face:"),    
     ]
 )
@@ -22,12 +22,12 @@ with col2:
     
 with col3:
     st.header(":dog:")
-    st.image("home_dog.jpg")
+    st.image("images/home_dog.jpg")
     st.write("Notice: If your pet is a hybrid, PawAI will identify the breed of your pet")
     
 st.write("")
 st.write("")
 
-st.image("home_image.jpg")
+st.image("images/home_image.jpg")
 
 st.write("The motivation behind creating this app is evident. Many individuals are likely to adopt 'stray dogs.' However, as someone who has personally adopted and cared for a stray dog, I realize that we often lack information about their early experiences and family background. At times, we might not even know their specific breed. Through the app I developed, you can identify your pet!")
