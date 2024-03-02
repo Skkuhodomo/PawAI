@@ -40,6 +40,7 @@ With **Langchain🦜⛓️** you can load openAI model.
 I modified a GPT prompt so that it can be a **veterinarian** who can identify the breed and condition of pets through images.
 
 [OpenAI](https://platform.openai.com/docs/guides/vision)
+![class-diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Skkuhodomo/PawAI/main/diagram/langchain-gpt-vision.puml) 
 
 ## To Get Started 
 

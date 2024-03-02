@@ -1,0 +1,24 @@
+@startuml Langchain GPT Vision 
+
+rectangle "User" {
+    [image]
+    [message]
+}
+
+package "Streamlit" #LightPink {
+    [image]-->[WEB] : image -> text 
+    [message]-->[WEB]
+    prompt--[WEB]
+}
+
+node "Langchain" #LightGreen{
+  [GPT4-vision]
+  [WEB] --> [GPT4-vision]   
+}
+
+[GPT4-vision] ==> [WEB] : Result
+
+
+
+
+@enduml
